@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-5">
-      <h3 class="bg-primary text-white p3">[{{ user }}'s] To Do List - Angular</h3>
+      <h3 class="bg-primary text-white p3">[{{ getName() }}'s] To Do List - Angular</h3>
 
       <div class="input-group">
         <input type="text" class="form-control" />
@@ -17,7 +17,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let item of items">
+          <tr *ngFor="let item of getItems()">
             <td>{{item.description}}</td>
             <td>{{item.action}}</td>
         </tr>

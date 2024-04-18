@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, NgModule } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Model } from './model';
 
 @Component({
   selector: 'app-root',
@@ -10,11 +11,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  user = 'Ozcan';
-  items = [
-    {description: "Kahvaltı", action: "No"},
-    {description: "Ders Çalışma", action: "No"},
-    {description: "Spor", action: "No"},
-    {description: "Sinema", action: "No"}
-  ];
+  model = new Model();
+  getName(){
+    return this.model.user;
+  }
+  getItems(){
+    return this.model.items;
+  }
 }
