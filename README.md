@@ -1,6 +1,14 @@
+## Languages & Tools
+## Languages i use
+![Langs](https://skillicons.dev/icons?i=ts,angular,html,css,")
+
 # ToDoAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+
+
+# About this project
+You can set tasks in this project and mark and delete these tasks as you perform them. You can go back and look at what you have done or delete it. 
 
 ## Development server
 
