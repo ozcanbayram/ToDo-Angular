@@ -1,6 +1,5 @@
 ## Languages & Tools
-## Languages i use
-![Langs](https://skillicons.dev/icons?i=ts,angular,html,css,")
+![Langs](https://skillicons.dev/icons?i=vscode,ts,angular,html,css,")
 
 # ToDoAngular
 
