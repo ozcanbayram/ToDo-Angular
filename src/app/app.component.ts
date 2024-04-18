@@ -29,4 +29,13 @@ export class AppComponent {
         this.model.items.push(new TodoItem(value,false));
     }
   }
+  deleteItem(index: number) {
+    // Validate index to prevent errors
+    if (index >= 0 && index < this.model.items.length) {
+      this.model.items.splice(index, 1); // Remove the item at the specified index
+    } else {
+      console.error('Invalid index for delete operation');
+    }
+  }
+  
 }

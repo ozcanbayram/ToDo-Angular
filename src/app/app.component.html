@@ -23,6 +23,11 @@
             <th></th>
             <th>Description</th>
             <th>Action</th>
+
+            <th></th>
+            <th>Delete</th>
+          
+          
           </tr>
         </thead>
         <tbody>
@@ -36,6 +41,13 @@
               <span *ngSwitchCase="true"> Yes </span>
               <span *ngSwitchCase="false"> No </span>
             </td>
+
+
+            <td>
+              <button class="btn btn-danger" (click)="deleteItem">Delete</button>
+            </td>
+
+
         </tr>
         </tbody>
       </table>
