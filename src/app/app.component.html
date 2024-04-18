@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container ">
   <div class="row justify-content-center">
     <div class="col-5">
       <h3 class="bg-primary text-white p3">[{{ getName() }}'s] To Do List - Angular</h3>
@@ -21,8 +21,8 @@
         <thead>
           <tr>
             <th></th>
-            <th>Description</th>
-            <th>Action</th>
+            <th>Mission</th>
+            <th>Situation</th>
 
             <th></th>
             <th>Delete</th>
@@ -44,7 +44,7 @@
 
 
             <td>
-              <button class="btn btn-danger" (click)="deleteItem">Delete</button>
+              <button class="btn btn-danger" (click)="deleteItem(i)">Delete</button>
             </td>
 
 
